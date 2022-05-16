@@ -1,16 +1,16 @@
-import React from "react";
-import Button from "./components/Button";
-import "./App.css";
+import React from 'react'
+import Button from './components/Button'
+import './App.css'
 
 function App(): JSX.Element {
   const handleClick = () => {
-    console.log("clicked");
-  };
+    console.log('clicked')
+  }
   return (
     <div className="App">
-      <Button onClick={handleClick}>Click Me!</Button>
+      <Button onClick={handleClick} label="Click Me!" />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
